@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME MEMORIES</title>
+    <link rel="stylesheet" href="../assets/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap.min.css.map">
+
+    <script src="./index.js"></script>
+    <script src="src/util.js"></script>
+    <script src="src/jogoDaMemoria.js"></script>
+    <script src="src/tela.js"></script>
+</head>
+<body class="container-fluid">
+    <br>
+    
+    <div class="row container-fluid">
+        <button class="btn btn-success" id="jogar">Clique aqui para iniciar</button>
+        <button class="btn btn-danger" id="mostrarTudo">Mostrar tudo</button>
+    </div>
+    
+    <div id="carregando" class="row container-fluid invisible">
+        <strong id="contador">Começando em 1...</strong>
+        <div class="spinner-border spinner-border-sm text-warning" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <br />
+    <div id="conteudo" class="row">
+        
+    </div>
+    
+    <div class="row container-fluid">
+        <div id="mensagem" class="alert alert-danger invisible" role="alert">
+            Combinação Correta!
+        </div>
+    </div>
+    
+
+    
+    
+</body>
+</html>

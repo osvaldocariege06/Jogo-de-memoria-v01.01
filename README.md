@@ -1,2 +1,2 @@
-# Jogo-de-memoria-v01
- Jogo-de-memoria-v01
+# jogo-de-memoria
+ Meu projecto de teste de javascript
